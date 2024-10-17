@@ -2,7 +2,7 @@
 
 #define _(x) gettext(x)
 
-int main()
+int main(void)
 {
   std::cout << _("Short Hello World") << std::endl;
   std::cout << gettext("Hello World") << std::endl;
